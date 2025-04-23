@@ -14,10 +14,10 @@ class TugasRecycleviewActivity : AppCompatActivity() {
         recyclerView.layoutManager = LinearLayoutManager(this)
 
         val items = listOf(
-            TugasItem("Andre", "Mahasiswa Teknik", R.drawable.ic_launcher_foreground),
-            TugasItem("Jimi", "Mahasiswa Sistem Informasi", R.drawable.ic_launcher_foreground),
-            TugasItem("Dede", "Mahasiswa Informatika", R.drawable.ic_launcher_foreground),
-            TugasItem("Pablo", "Mahasiswa Komputer", R.drawable.ic_launcher_foreground)
+            TugasItem("Andre", "Mahasiswa FIKOM", R.drawable.ic_launcher_foreground),
+            TugasItem("Jimirson", "Mahasiswa FIKOM", R.drawable.ic_launcher_foreground),
+            TugasItem("Ferly", "Mahasiswa FIKOM", R.drawable.ic_launcher_foreground),
+            TugasItem("Christian", "Mahasiswa FIKOM", R.drawable.ic_launcher_foreground)
         )
 
         val adapter = TugasAdapter(items)
